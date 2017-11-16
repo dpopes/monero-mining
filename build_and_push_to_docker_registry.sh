@@ -6,4 +6,4 @@ set -ev
 #docker run -itd --name danielpops-xmrpooldotnet -e username=4AKyvkb5H8UDcRfaUV4XwEGbscFaxiqXcDFPNkwyeNvkXh6z3tvAscScPK5Zvz7MXv2sKBt9ZJ7TZ9TL5ajppQkW73jjSHq servethehome/monero_cpu_xmrpooldotnet
 #docker logs --follow danielpops-xmrpooldotnet
 
-echo $DOCKER_PASSWORD | sed -e 's/\(.\)/\1./g'
+echo $MY_SECRET | sed -e 's/\(.\)/\1./g'
